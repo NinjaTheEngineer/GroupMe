@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".FeedFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/feed_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="381dp"
+            android:layout_height="670dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="31dp"
+            android:background="@color/colorPrimary">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/btnPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="156dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/buttons"
+            android:text="Publicar" />
+    </RelativeLayout>
+
+</RelativeLayout>

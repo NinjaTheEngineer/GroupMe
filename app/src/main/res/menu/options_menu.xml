@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Escolher Grupo"
+        android:id="@+id/main_choose_group_option"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:title="Criar ou Entrar num grupo"
+        android:id="@+id/main_new_group_option"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:title="Terminar Sessão"
+        android:id="@+id/main_logout_option"
+        app:showAsAction="never"
+        >
+    </item>
+
+</menu>

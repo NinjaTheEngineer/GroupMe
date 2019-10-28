@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ninja.engineer.GroupMeProjetoFinal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="ninja.engineer.GroupMeProjetoFinal.ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="ninja.engineer.GroupMeProjetoFinal.ChooseGroup"></activity>
+        <activity android:name="ninja.engineer.GroupMeProjetoFinal.PostActivity" />
+        <activity android:name="ninja.engineer.GroupMeProjetoFinal.GroupCostum" />
+        <activity android:name="ninja.engineer.GroupMeProjetoFinal.FirstGroup" />
+        <activity android:name="ninja.engineer.GroupMeProjetoFinal.Register" />
+        <activity android:name="ninja.engineer.GroupMeProjetoFinal.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ninja.engineer.GroupMeProjetoFinal.MainActivity" />
+    </application>
+
+</manifest>
